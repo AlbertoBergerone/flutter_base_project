@@ -5,6 +5,8 @@
 .packages
 build/
 pubspec.lock
+**/doc/api/
+**/ios/Flutter/.last_build_id
 
 # Directory created by dartdoc
 doc/api/
@@ -46,3 +48,14 @@ doc/api/
 # Visual Studio Code related
 .vscode/
 
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release

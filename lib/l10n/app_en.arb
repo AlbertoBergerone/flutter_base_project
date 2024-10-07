@@ -1,0 +1,14 @@
+{
+  "@@locale": "en",
+  "app_name": "App name",
+  "@_SETTINGS_PAGE": {},
+  "change_language": "change language",
+  "change_theme": "change theme",
+  "settings": "settings",
+  "languages" : "languages",
+  "english": "english",
+  "italian": "italian",
+  "spanish": "spanish",
+  "theme_1_name": "name of the theme 1",
+  "theme_2_name": "name of the theme 2"
+}
