@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_base_project/home.dart';
+import 'package:flutter_base_project/src/presentation/pages/home.dart';
 import 'package:flutter_base_project/l10n/gen_l10n/app_localizations.dart';
-import 'package:flutter_base_project/providers/locale_provider.dart';
-import 'package:flutter_base_project/providers/theme_provider.dart';
-import 'package:flutter_base_project/utils/shared_prefs.dart';
+import 'package:flutter_base_project/src/core/providers/locale_provider.dart';
+import 'package:flutter_base_project/src/core/providers/theme_provider.dart';
+import 'package:flutter_base_project/src/core/utils/shared_prefs.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
 void main() async {
-  // Si assicura che il binding di Flutter sia inizializzato
+  // Make sure Flutter binding is initialized
   WidgetsFlutterBinding.ensureInitialized();
 
   await SharedPrefs.init();

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_base_project/extensions/string_extensions.dart';
-import 'package:flutter_base_project/views/settings/settings_item.dart';
+import 'package:flutter_base_project/src/core/extensions/string_extensions.dart';
+import 'package:flutter_base_project/src/presentation/widgets/settings/settings_item.dart';
 
 class SettingsDialog extends StatelessWidget {
   final List<SettingsItem> settingsItems;

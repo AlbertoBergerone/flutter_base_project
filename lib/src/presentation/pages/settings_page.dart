@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_base_project/l10n/gen_l10n/app_localizations.dart';
-import 'package:flutter_base_project/providers/theme_provider.dart';
-import 'package:flutter_base_project/themes/app_theme.dart';
-import 'package:flutter_base_project/views/settings/language_settings_dialog.dart';
-import 'package:flutter_base_project/extensions/string_extensions.dart';
-import 'package:flutter_base_project/views/settings/settings_dialog.dart';
-import 'package:flutter_base_project/views/settings/settings_item.dart';
+import 'package:flutter_base_project/src/core/providers/theme_provider.dart';
+import 'package:flutter_base_project/src/core/theme/app_theme.dart';
+import 'package:flutter_base_project/src/presentation/widgets/settings/language_settings_dialog.dart';
+import 'package:flutter_base_project/src/core/extensions/string_extensions.dart';
+import 'package:flutter_base_project/src/presentation/widgets/settings/settings_dialog.dart';
+import 'package:flutter_base_project/src/presentation/widgets/settings/settings_item.dart';
 import 'package:provider/provider.dart';
 
 class SettingsPage extends StatefulWidget {
