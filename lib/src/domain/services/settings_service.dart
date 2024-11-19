@@ -1,4 +1,4 @@
-import 'package:flutter_base_project/utils/shared_prefs.dart';
+import 'package:flutter_base_project/src/core/utils/shared_prefs.dart';
 
 /// Settings preferences management
 class SettingsService {

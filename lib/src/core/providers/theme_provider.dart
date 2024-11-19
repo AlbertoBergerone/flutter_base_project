@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
-import 'package:flutter_base_project/services/settings_service.dart';
-import 'package:flutter_base_project/themes/app_theme.dart';
+import 'package:flutter_base_project/src/domain/services/settings_service.dart';
+import 'package:flutter_base_project/src/core/theme/app_theme.dart';
 
 /// Theme Provider
 class ThemeProvider with ChangeNotifier {

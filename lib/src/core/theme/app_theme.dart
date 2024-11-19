@@ -52,16 +52,17 @@ final List<AppTheme> availableThemes = [
     id: 'customTheme1',
     name: (context) => AppLocalizations.of(context).theme_1_name,
     theme: baseTheme.copyWith(
-      primaryColor: Colors.green,
-      colorScheme: baseTheme.colorScheme.copyWith(
-        primary: Colors.green,
-        secondary: Colors.greenAccent,
+      primaryColor: Colors.teal,
+      colorScheme: ColorScheme.fromSeed(
+        seedColor: Colors.teal,
+        brightness: Brightness.light,
       ),
       appBarTheme: baseTheme.appBarTheme.copyWith(
-        backgroundColor: Colors.green,
+        backgroundColor: Colors.transparent,
+
       ),
       floatingActionButtonTheme: baseTheme.floatingActionButtonTheme.copyWith(
-        backgroundColor: Colors.green,
+        backgroundColor: Colors.teal,
       ),
     ),
   ),

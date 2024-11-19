@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_base_project/l10n/gen_l10n/app_localizations.dart';
-import 'package:flutter_base_project/services/settings_service.dart';
+import 'package:flutter_base_project/src/domain/services/settings_service.dart';
 
 /// Locale management support class
 class AppLocale {
