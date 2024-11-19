@@ -1,10 +1,4 @@
 # flutter_base_project
-Flutter base project with language and theme management
-
-A new Flutter project.
-
-## Getting Started
-
 This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
@@ -122,3 +116,4 @@ To add new features or changes to the project:
 - Consider implementing dependency injection for better testability and maintainability.
 - Add more detailed documentation for complex use cases and domain entities.
 - Implement proper error handling and logging throughout the application.
+
